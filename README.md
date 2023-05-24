@@ -1,7 +1,7 @@
 # Pichincha Challenge
 
 ![App](./.readme-static/SCRREN_HOME.png)
-![App](./.readme-static/SCRREN_HOME_MOBILE.jpg)
+![App](./.readme-static/SCRREN_HOME_MOBILE.png)
 ![App](./.readme-static/SCRREN_HOME_FILTER.png)
 ![App](./.readme-static/MODAL_UPDATE.png)
 ![App](./.readme-static/MODAL_REGISTER.png)
