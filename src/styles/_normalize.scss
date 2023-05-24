@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 300px;
+	min-height: 100vh;
+	position: relative;
+	font-family: $font_family;
+	line-height: $line_height;
+	background-color: #f4f6f9;
+	font-size: $font_size_default;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	@include responsive-width ($mobile_s) {
+		overflow-x: hidden;
+	}
+
+	@include responsive-width ($tablet_m) {
+		font-size: $font_size_default + 2;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+strong,
+b {
+	font-weight: $font_bold;
+	font-family: $font_family;
+}
+
+em {
+	font-style: italic;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	line-height: 1.25;
+	margin-bottom: 15px;
+	font-weight: $font_bold;
+	font-family: $font_family_title;
+
+	@include responsive-width($tablet_m) {
+		line-height: 1.25;
+		margin-bottom: 20px;
+	}
+}
+
+h1,
+.h1 {
+	font-weight: 800;
+	margin-bottom: 20px;
+	font-size: $font_size_h1;
+
+	@include responsive-width($tablet_m) {
+		font-size: $font_size_h1 + 6;
+		margin-bottom: 25px;
+	}
+}
+
+h2,
+.h2 {
+	font-size: $font_size-h2;
+
+	@include responsive-width($tablet_m) {
+		font-size: $font_size-h2 + 7;
+	}
+}
+
+input,
+textarea {
+	font-weight: 400;
+	font-family: $font_family;
+	font-size: $font_size_input;
+
+	@include responsive-width($laptop_s) {
+		font-weight: 500;
+		font-size: $font_size_default;
+	}
+
+	&::placeholder {
+		color: $gray_light_3;
+		font-family: $font_family;
+		font-size: $font_size_label;
+	}
+}
+
+label {
+	font-weight: 400;
+	font-family: $font_family;
+	font-size: $font_size_label;
+
+	@include responsive-width($laptop_s) {
+		font-weight: 500;
+	}
+}

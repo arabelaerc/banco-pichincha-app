@@ -1,0 +1,8 @@
+export const TOGGLE_MODAL_REGISTER = '@layer/TOGGLE__MODAL_REGISTER'
+export const SET_KEYWORD = '@layer/SET_KEYWORD'
+export const SAVE_PRODUCTS = '@layer/SAVE_PRODUCTS'
+export const ADD_PRODUCT = '@layer/ADD_PRODUCT'
+export const DELETE_PRODUCT = '@layer/DELETE_PRODUCT'
+export const UPDATE_PRODUCT = '@layer/UPDATE_PRODUCT'
+export const VERIFY_ID_PRODUCT = '@layer/VERIFY_ID_PRODUCT'
+export const UPDATE_CURRENT_PRODUCT = '@layer/UPDATE_CURRENT_PRODUCT'

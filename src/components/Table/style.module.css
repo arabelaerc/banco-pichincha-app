@@ -1,0 +1,162 @@
+.table {
+	margin: 20px 0;
+}
+
+.table img {
+	margin: 0;
+	padding-left: 10px;
+}
+
+.table p {
+	margin: 0;
+	font-size: 11px;
+	padding: 7px 10px;
+	margin-block-end: 0;
+}
+
+.headline,
+.row {
+	display: grid;
+	align-items: center;
+	border-bottom: 1px solid #f3f4f7;
+	grid-template-columns: 100px 1fr 1fr 1fr 1fr .2fr;
+}
+
+.headline {
+	display: none;
+	height: 60px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #f9fafc;
+}
+
+.row {
+	padding: 0;
+	display: block;
+	margin-bottom: 15px;
+	background-color: white;
+}
+
+.headline div,
+.row div {
+	padding: 0;
+}
+
+.headline div {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.row div {
+	font-size: 12px;
+}
+
+.row div h6 {
+	padding: 10px;
+	margin-top: 0;
+	margin-bottom: 3px;
+	text-transform: uppercase;
+	background-color: #f9fafc;
+}
+
+.row div:first-child img {
+	width: 50px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.row div:last-child {
+	padding: 5px;
+	text-align: right;
+	position: relative;
+	background-color: rgb(255 208 0 / 10%);
+}
+
+.row div:hover:last-child .buttons {
+	opacity: 1;
+	visibility: visible;
+}
+
+.row div:last-child img {
+	width: 25px;
+	cursor: pointer;
+	padding: 10px 5px;
+}
+
+.row div:last-child .buttons {
+	top: 1px;
+	right: 16px;
+	opacity: 0;
+	text-align: left;
+	position: absolute;
+	visibility: hidden;
+	background-color: white;
+	border: 1px solid #f3f4f7;
+}
+
+.buttons button {
+	border: none;
+	cursor: pointer;
+	font-size: 10px;
+	padding: 7px 12px;
+	background-color: transparent;
+}
+
+.buttons button:hover {
+	color: #ffd000
+}
+
+.loading {
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.table {
+		background-color: #ffffff;
+	}
+
+	.headline {
+		display: grid
+	}
+
+	.headline,
+	.row {
+		display: grid;
+		align-items: center;
+		grid-template-columns: 100px 1fr 1fr 1fr 1fr .2fr;
+	}
+
+	.headline div,
+	.row div {
+		padding: 0 5px;
+	}
+
+	.table img {
+		margin: 0;
+		padding-left: 0;
+	}
+
+	.row {
+		padding: 5px 20px;
+		grid-template-columns: 100px 1fr 1fr 1fr 1fr .2fr;
+	}
+
+	.row div:last-child {
+		background-color: transparent;
+	}
+
+	.row div:last-child img {
+		padding: 0;
+	}
+
+	.buttons button:last-child {
+		border-top: 1px solid #f3f4f7;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.row div:last-child img {
+		width: 15px;
+	}
+}

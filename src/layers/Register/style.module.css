@@ -1,0 +1,29 @@
+.form div {
+  text-align: left;
+}
+
+.form .buttons {
+  gap: 21px;
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+}
+
+.form .buttons button {
+  font-weight: 700;
+}
+
+.form .buttons button:first-child {
+  border-color: #f3f4f7;
+  background-color: #f3f4f7;
+}
+
+.form .buttons button:last-child {
+  border: 1px solid #ffd000;
+  background-color: #ffd000;
+}
+
+.form .input_d div label {
+  font-size: 12px;
+  text-align: left;
+}

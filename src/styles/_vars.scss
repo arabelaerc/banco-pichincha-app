@@ -1,0 +1,66 @@
+// Layout
+$container: 1130px;
+$container_laptop: 964px;
+$container_laptop_s: 864px;
+$container_tablet_m: 730px;
+
+// Breakpoints
+$mobile_s: 320px;
+$mobile_m: 360px;
+$mobile_l: 425px;
+$tablet_s: 640px;
+$tablet_m: 768px;
+$tablet_l: 850px;
+
+$laptop_s: 1024px;
+$laptop_m: 1280px;
+$desktop_s: 1440px;
+$desktop_m: 1750px;
+
+$breakpoint_list: ('ms', $mobile_s),
+('mm', $mobile_m),
+('ml', $mobile_l),
+('ts', $tablet_s),
+('tm', $tablet_m),
+('tl', $tablet_l),
+('ls', $laptop_s),
+('lm', $laptop_m),
+('ds', $desktop_s),
+('dm', $desktop_m);
+
+// Main Colors
+$white : #fff;
+$black : #000;
+$gray: #686D73;
+$blue : #283593;
+
+// Dark Colors
+$dark_1 : #191919;
+
+// Light Colors
+$light_1 : #F3F3F3;
+$gray_light_1 : #E4E4E4;
+$gray_light_2 : #C6CED6;
+$gray_light_3 : #878787;
+
+// Text
+$line_height : 1.71;
+$letter_spacing : 0.005em;
+$font_family : 'Open Sans', sans-serif;
+$font_family_secondary : $font_family;
+$font_family_title : $font_family;
+
+
+// Font weights
+$font_light : 300;
+$font_regular : 400;
+$font_medium : 500;
+$font_bold : 700;
+$font_black : 900;
+
+$font_size_h1 : 22px;
+$font_size_h2 : 18px;
+$font_size_h3 : 16px;
+$font_size_default : 14px;
+$font_size_label : 16px;
+$font_size_input : 16px;

@@ -1,0 +1,16 @@
+.searcher {
+	height: 40px;
+	padding: 8px;
+	font-size: 12px;
+	border-radius: 10px;
+	border: 1px solid #d7d8da;
+}
+
+.searcher:focus {
+	outline: 0;
+}
+
+.searcher::placeholder {
+	font-size: 12px;
+	font-weight: 300;
+}
